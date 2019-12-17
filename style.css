@@ -105,8 +105,14 @@ body {
 
 }
 
-.round__button:hover {opacity: 1}
+/* .round__button:hover {opacity: 1} */
 
 .round__button:active {
   transform: translateY(4px);
+}
+
+@media (hover: hover) {
+  .round__button:hover {
+    opacity: 1;
+  }
 }
