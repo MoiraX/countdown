@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Round countdown</title>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="qnum">
+    <div class="qnum__controls">
+      <button data-qnum="20" class="qnum__button">20 rounds</button>
+      <button data-qnum="25" class="qnum__button">25 rounds</button>
+      <button data-qnum="30" class="qnum__button">30 rounds</button>
+      <button data-qnum="35" class="qnum__button">35 rounds</button>
+      <form name="customForm" id="custom">
+        <input type="text" name="questions" placeholder="Enter number of rounds">
+      </form>
+    </div>
+    <div class="display">
+      <h1 class="display__questions-left"></h1>
+      <p class="display__questions-left-text"></p>
+      <div class="display__round-button"></div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
